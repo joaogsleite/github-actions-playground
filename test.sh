@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-echo "Password=$PASSWORD"
+echo "Password=$PASSWORD" > output.txt

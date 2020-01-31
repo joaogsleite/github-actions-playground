@@ -10,3 +10,8 @@ jobs:
       run: ./test.sh
       env:
         PASSWORD: ${{ secrets.PASSWORD }}
+    - name: Upload artifact
+      uses: actions/upload-artifact@v1
+      with:
+        name: output
+        path: output.txt
